@@ -37,6 +37,13 @@ const Footer = ({ title }) => {
             <br />
           </>
         )}
+        <>
+            <i className='fas fa-shield-cat' />{' '}
+            <a href='https://icp.gov.moe/?keyword=20255125' target="_blank" className='mr-2'>
+            萌ICP备20255125号
+            </a>
+            <br />
+        </>
         <BeiAnGongAn />
         <span className='hidden busuanzi_container_site_pv'>
           <i className='fas fa-eye' />
