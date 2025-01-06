@@ -27,7 +27,6 @@ const Footer = ({ title }) => {
           className='underline font-bold  dark:text-gray-300 '>
           {siteConfig('AUTHOR')}
         </a>
-        .<br />
         {siteConfig('BEI_AN') && (
           <>
             <i className='fas fa-shield-alt' />{' '}
@@ -42,7 +41,6 @@ const Footer = ({ title }) => {
             <a href='https://icp.gov.moe/?keyword=20255125' target="_blank" className='mr-2'>
             萌ICP备20255125号
             </a>
-            <br />
         </>
         <BeiAnGongAn />
         <span className='hidden busuanzi_container_site_pv'>
@@ -54,7 +52,7 @@ const Footer = ({ title }) => {
           <span className='px-1 busuanzi_value_site_uv'> </span>{' '}
         </span>
         <br />
-        <h1>{title}</h1>
+        {/* <h1>{title}</h1> */}
         <span className='text-xs '>
           Powered by{' '}
           <a
