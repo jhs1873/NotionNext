@@ -37,7 +37,7 @@ const Footer = ({ title }) => {
           </>
         )}
         <>
-            <i className='fas fa-shield-cat' />{' '}
+            <i className='ml-1 fas fa-shield-cat' />{' '}
             <a href='https://icp.gov.moe/?keyword=20255125' target="_blank" className='mr-2'>
             萌ICP备20255125号
             </a>
@@ -53,7 +53,7 @@ const Footer = ({ title }) => {
         </span>
         <br />
         {/* <h1>{title}</h1> */}
-        <span className='text-xs '>
+        <span className='text-xs text-right float-right'>
           Powered by{' '}
           <a
             href='https://github.com/tangly1024/NotionNext'
