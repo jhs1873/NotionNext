@@ -34,7 +34,7 @@ import SearchNave from './components/SearchNav'
 import TagItemMiddle from './components/TagItemMiddle'
 import CONFIG from './config'
 import { Style } from './style'
-
+import Layout404Page from './components/Layout404'
 const AlgoliaSearchModal = dynamic(
   () => import('@/components/AlgoliaSearchModal'),
   { ssr: false }
@@ -329,20 +329,7 @@ const Layout404 = props => {
       }
     }, 3000)
   })
-  return (
-    <>
-      <div className='text-black w-full h-screen text-center justify-center content-center items-center flex flex-col'>
-        <div className='dark:text-gray-200'>
-          <h2 className='inline-block border-r-2 border-gray-600 mr-2 px-3 py-2 align-top'>
-            404
-          </h2>
-          <div className='inline-block text-left h-32 leading-10 items-center'>
-            <h2 className='m-0 p-0'>页面未找到</h2>
-          </div>
-        </div>
-      </div>
-    </>
-  )
+  return <Layout404Page />
 }
 
 /**
